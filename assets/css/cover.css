@@ -24,7 +24,15 @@ h4 {
   border: .05rem solid #fff;
 }
 
+.inner {
+  max-width: 90vw;
+  height: 760px;
+}
 
+img {
+  width: 100%;
+  padding: 70px;
+}
 /*
  * Base structure
  */

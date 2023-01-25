@@ -9,6 +9,11 @@ a:hover {
   color: #fff;
 }
 
+h4 {
+  color: #aaa;
+  padding: 16px 32px;
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -45,7 +50,6 @@ body {
 .cover-container {
   max-width: 42em;
 }
-
 
 /*
  * Header

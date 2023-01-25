@@ -25,9 +25,9 @@ jobs:
       #   run: |
       #     pip3 install beautifulsoup4
       #     python3 embed.py
-      - name: Encrypt index
-        run: staticrypt main.html ${{ secrets.DECRYPTION_PASSPHRASE }} -f password_template.html -o index.html --title "Login" --instructions "This is a test website, use the password 'test' to enter." --decrypt-button "Open Page" --embed true
-        # run: staticrypt index.html ${{ secrets.DECRYPTION_PASSPHRASE }} -f password_template.html -o index.html --title "Login" --instructions "This is a test website, use the password 'test' to enter." --decrypt-button "Open Page" --embed true
+      - name: Encrypt indexgit status
+        run: staticrypt main.html ${{ secrets.DECRYPTION_PASSPHRASE }} -f password_template.html -o index.html --title "Clairvoyant" --instructions "Jou geskenk lê hier binne, wat is die anwoord op die raaisel?" --decrypt-button "Wys my!" --embed true
+        # run: staticrypt index.html ${{ secrets.DECRYPTION_PASSPHRASE }} -f password_template.html -o index.html --title "Clairvoyant" --instructions "Jou geskenk lê hier binne, wat is die anwoord op die raaisel?" --decrypt-button "Wys my!" --embed true
       - name: Commit files
         run: |
           git config --local user.name "Github Action"

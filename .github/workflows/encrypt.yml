@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install staticrypt
         run: sudo npm install -g staticrypt
-      - name: Remove template salt (if necessary)
       # - name: Embed assets
       #   run: |
       #     pip3 install beautifulsoup4
